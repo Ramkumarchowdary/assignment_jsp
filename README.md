@@ -1,2 +1,2 @@
 # assignment_jsp
-its about solving
+it's about developing the web page
