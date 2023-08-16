@@ -38,15 +38,20 @@ nav ul li {
   color: white;
   margin-left: 50px;
   transition: all .5s;
+  
 }
-nav ul li a {
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li .nav-item {
   text-decoration: none;
   border-radius: 17px;
   background-color: #efc07b;
   padding: 10px 56px;
   color: #203725;
 }
-nav ul li:hover {
+nav ul li a:hover {
   text-decoration: underline;
   text-decoration-color:aliceblue;
   /* color: #203725; */
@@ -55,7 +60,7 @@ nav ul li:hover {
   bottom: 5px; */
 }
 
-nav ul li a:hover {
+nav ul li .nav-item:hover {
   text-decoration: underline;
   text-decoration-color:  #efc07b;
   color:  #efc07b;
