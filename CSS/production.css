@@ -68,6 +68,20 @@
   }
   /* navbar ends */
 
-  h1 {
-    margin-top: 200px;
+  section .maintext h1{
+    margin-top: 100px;
+    color: #203725;
+    font-size: 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  maintext h1::after{
+    width: 2px;
+    height: 1px;
+    background-color: #203725;
+    border: 2px solid black;
+  }
+  section .main-vedio iframe{
+    
   }
