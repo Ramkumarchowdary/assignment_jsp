@@ -83,5 +83,10 @@
     border: 2px solid black;
   }
   section .main-vedio iframe{
-    
+    width: 90%;
+    height: 460px;
+    margin-left: 94px;
+    margin-top: 50px;
+    outline: 5px solid white;
+    box-shadow: 3px 3px 18px 16px gray;
   }
