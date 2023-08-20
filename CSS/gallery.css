@@ -67,6 +67,221 @@
     background-color: #203725;
   }
   /* navbar ends */
-  h1 {
-    margin-top: 200px;
-  }
+  
+/*^ Gallery starts  */
+
+h1.gallery-main{
+  /* margin: 10px auto; */
+  margin-top: 140px;
+  color: #203725;
+  font-size: 90px;
+  font-weight: 700;
+  margin-left: 560px;
+  
+}
+.gallery{
+  width: 80%;
+  height: 626px;
+  /* border: 2px solid #efc07b; */
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 100px; */
+}
+.gallery .firstimg{
+  width: 381px;
+  height: 276px;
+  /* border: 2px solid #efc07b; */
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  box-shadow: 1px 1px 15px 0px rgba(0, 0, 0, 0.548);
+
+}
+.gallery .firstimg img{
+  width: 100%;
+  height: 70%;
+  transform: scale(1.2, 1);
+}
+.gallery .firstimg h1{
+ 
+  color: #203725;
+  font-size: 17px;
+  font-weight: bolder;
+  padding: 34px 14px;
+  margin-top: 2px;
+  background-color: #fff;
+  
+
+}
+
+
+
+
+
+
+
+
+
+/*^ Gallery ends  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer start */
+
+footer{
+  width: 100%;
+  height: 300px;
+  background-color: #203725;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding-top: 34px;
+   margin-top: 92px;
+}
+footer .icons{
+  color:#fff;
+    width: 267px;
+    height: 165px;
+    /* border: 2px solid #fff; */
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+
+}
+footer h2{
+  /* text-align: center; */
+  /* margin-left: 7px; */
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  font-family: "Outfit", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+ 
+}
+footer .fa-facebook-official {
+  font-size: 20px;
+  border-radius: 4px;
+ padding: 14px ;
+ background-color: #fff;
+ color: #203725;
+ /* margin-left: 7px; */
+  
+}
+footer .fa-twitter {
+  font-size: 20px;
+  border-radius: 4px;
+ padding: 14px ;
+ margin-left: 7px;
+ background-color: #fff;
+ color: #203725;
+  
+}
+footer .fa-linkedin{
+  font-size: 20px;
+  border-radius: 4px;
+ padding: 14px ;
+ margin-left: 7px;
+ background-color: #fff;
+ color: #203725;
+
+}
+footer .fa-instagram{
+  font-size: 20px;
+  border-radius: 4px;
+ padding: 14px ;
+ margin-left: 7px;
+ background-color: #fff;
+ color: #203725;
+
+}
+footer .fa-facebook-official:hover ,footer .fa-twitter:hover ,footer .fa-linkedin:hover ,footer .fa-instagram:hover {
+  background-color: #efc07b;
+}
+
+ footer .address{
+  width: 267px;
+  height: 165px;
+  /* border: 2px solid #fff; */
+  font-size: 10px;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+ }
+ footer .address h2{
+  margin-bottom: 20px;
+ }
+ footer .address a{
+  font-size: 15px;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+  color: #fff;
+  /* padding-left: 7px; */
+
+ }
+
+ footer .polices,footer .email{
+  width: 267px;
+  height: 165px;
+  /* border: 2px solid #fff; */
+ 
+ }
+ footer .polices h2,footer .email h2{
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1.2px;
+ }
+ footer .polices a,footer .email a{
+  display: block;
+  font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 1.2px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 10px;
+
+ }
+ 
+ footer .address a:hover,footer .polices a:hover,footer .email a:hover{
+  color: #efc07b;
+ }
+
+
+
+
+
+
+
+
+
+
+/* footer end */
