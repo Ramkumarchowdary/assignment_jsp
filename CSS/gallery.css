@@ -84,6 +84,7 @@ h1.gallery-main{
   height: 626px;
   /* border: 2px solid #efc07b; */
   margin: 50px auto;
+  margin-bottom: 10px;
   display: flex;
   flex-wrap: wrap;
   /* margin-top: 100px; */
@@ -112,9 +113,15 @@ h1.gallery-main{
   padding: 34px 14px;
   /* margin-top: 2px; */
   background-color: #fff;
-  height: 100%;
+  
   
 
+}
+.gallery1{
+  width: 80%;
+  height: 626px;
+  border: 2px solid black;
+  margin: 5px auto;
 }
 
 
