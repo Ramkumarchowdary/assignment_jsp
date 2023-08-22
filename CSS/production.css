@@ -77,14 +77,28 @@
   }
   section .maintext h1::before{
     content: "";
-    display: inline;
+    display: block;
     position: relative;
-    top :20px;
-    width: 10px;
-    height: 1px;
+    top: 104px;
+    left: 730px;
+    width: 99px;
+    height: 5px;
     background-color: #203725;
     border: 2px solid black;
+    
   }
+  /* section .maintext h1::after{
+    content: "";
+    display: block;
+    position: relative;
+    top: 23px;
+    left: 707px;
+    width: 145px;
+    height: 1px;
+    background-color:#efc07b;
+    border: 2px solid #efc07b;
+    z-index: -33;
+  } */
   section .main-vedio iframe{
     width: 90%;
     height: 560px;
