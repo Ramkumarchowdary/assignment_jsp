@@ -85,12 +85,25 @@ nav ul li .nav-item:hover {
   word-spacing: 6px;
   width: 1188px;
 }
-.home-content span .span-animation{
-  animation-name: span-animation;
+.home-content .span-animation{
+  animation-name:moveUp ;
+  animation-duration: 5s;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  /* animation-direction: reverse; */
 }
-@keyframes span-animation{
-  0%{
-    
+@keyframes moveUp{
+  0% ,20%{
+    transform: rotatex(360deg);
+  }
+  20%{
+    background-color: #203725;
+  }
+  50%{
+    background-color: rgb(244, 21, 21); transform: rotatey(360deg);
+  }
+  100%{
+    background-color: #203725;
   }
 }
 .home-content p {
