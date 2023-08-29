@@ -70,6 +70,53 @@ nav ul li .nav-item:hover {
 }
 /* navbar ends */
 
+/* ^ body start */
+.branded-content .brandtext{
+margin-top: 145px;
+    color: #203725;
+    font-size: 65px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+.branded-content .brandtext::before{
+  content: "";
+    display: block;
+    position: relative;
+    top: 87px;
+    left: 674px;
+    width: 216px;
+    height: 5px;
+    background-color: #203725;
+  
+}
+.branded-content .branded-content1{
+  width: 90%;
+  margin:20px auto; ;
+  height: 750px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.branded-content .branded-content1 h1{
+  color: #203725;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+.branded-content .branded-content1 iframe{
+  width: 100%;
+  height: 90%;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 0px 10px 10px 10px;
+  
+}
+
+/* ^ body end */
+
+
 /* footer start */
 
 footer {

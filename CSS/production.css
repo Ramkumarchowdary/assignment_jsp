@@ -84,7 +84,7 @@
     width: 99px;
     height: 5px;
     background-color: #203725;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     
   }
   /* section .maintext h1::after{
